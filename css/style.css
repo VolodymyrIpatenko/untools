@@ -1,355 +1,382 @@
-body{
+:root{
+    --logo-home-title-main-title-selection-apps-title-title-in-footer-color:rgba(255, 255, 255, 0.9);
+    --nav-registr-appsname-selection-apps-info-color:rgba(255, 255, 255, 0.78);
+    --buttonsbg-dot-loadbutton-color:rgba(255, 110, 48, 1);
+    --home-p-main-p-apps-info-apps-visit-info-in-footer-color:rgba(255, 255, 255, 0.55);
+    --buttontext-no-orange-color:rgba(255, 255, 255, 0.38);
+    --apps-value-color:rgba(255, 165, 55, 0.55);
+    --trustedbrands-color:rgba(255, 255, 255, 0.8);
+    --buttons-text-color:rgba(255, 255, 255, 1);
+    --reg-button-text-color:rgba(253, 245, 255, 1);
+    --selection-apps-value:rgba(255, 165, 55, 1);
+    --button-text-in-contributor-color:rgba(131, 122, 147, 1);
+    --page-color:rgba(30, 37, 43, 1);
+}
+
+body, head{
     font-family: Poppins;
-    letter-spacing: 0em;
+
+    background: var(--page-color);
 }
 
 .container{
-    padding-left: 15px;
-    padding-right: 15px;  
+    padding-left: 54px;
+    padding-right: 54px;  
     width: 1200px;
     margin: 0 auto;
-  }
-
-:root{
-    --logo-color: rgba(255, 255, 255, 0.9);
-    --nav-and-text-color: rgba(255, 255, 255, 0.55);
-    --button-dot-color: rgba(255, 110, 48, 1);
-    --bg-for-serch: rgba(40, 48, 54, 1);
-    --bg: rgba(30, 37, 43, 1);
-    --popular-tools-info-color: rgba(255, 165, 55, 0.55);
-    --section-brands: rgba(255, 255, 255, 0.8);
-    --text-in-button-color: rgba(255, 255, 255, 1);
-    --team-info-color: rgba(255, 255, 255, 0.78);
-    --text-in-serch-zone-color: rgba(255, 255, 255, 0.38); 
-    --button-color: rgba(255, 255, 255, 0.1);
-    --brands-button-radius-color: rgba(255, 255, 255, 0.05);
 }
+    /* head */
 
-.header{
-    padding: 24px 0;
-    background: var(--bg);
-}
-
-.header-wrap{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* .header-logo-list{
-}
-
-.header-logo-list-item{
-} */
-
-.logo{
+.logo-list-logo, .logo-footer-list-link{
     font-size: 22px;
     font-weight: 600;
-    line-height: 1.5px;
+    line-height: 1.5;
 
-    color: var(--logo-color);
+    color: var(--logo-home-title-main-title-selection-apps-title-title-in-footer-color);
 }
 
+.nav, .register-list{
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--nav-registr-color);
+}
 .nav{
+    font-weight: 500;
+
+    color: var(--nav-registr-appsname-selection-apps-info-color);
+}
+
+.register-list{
+    font-weight: 600;
+}
+
+.register-list-button{
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
 
-    color: var(--team-info-color);
+    color: var(--nav-registr-appsname-selection-apps-info-color);
 }
 
-.nav-list{
-    display: flex;
-    gap: 40px;
+.registr-list-button-login{
+    background-color: var(--page-color);
 }
 
-.authorization-list{
-    display: flex;
-    gap: 40px;
-
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5px;
-
-}
-
-.uthorization-list-item{
-    align-self: center;
-
-    color: var(--team-info-color); 
-}
-
-.authorization-list-button{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
-
-    padding: 12px 28px 12px 28px;
-
+.register-list-button-sing-up{
+    padding: 12px 28px;
     border-radius: 8px;
 
-    background-color: var(--button-dot-color);
+    background-color: var(--buttonsbg-dot-loadbutton-color);
 }
 
-    /* home-page */
+    /* section-home */
 
-main{
-    background: var(--bg);
+.home-list-title{
+font-size: 50px;
+font-weight: 500;
+line-height: 1.4;
+
+color: var(--logo-home-title-main-title-selection-apps-title-title-in-footer-color);
 }
 
-.home-page-list{
-    display: flex;
-    justify-content: space-between;
+.title-dot{
+    color: var(--buttonsbg-dot-loadbutton-color);
 }
 
-.home-page-list-item-margin{
-    margin-left: 111px;
-}
-
-.home-page-list-title{
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 1.4;
-
-    max-width: 630px;
-
-    padding-top: 110px; 
-    padding-bottom: 30px;
-
-     color: var(--logo-color);
-}
-
-.home-page-list-span{
-     color: var(--button-dot-color); 
-}
-
-.home-page-list-desc{
+.home-list-desc{
     font-size: 18px;
     font-weight: 400;
     line-height: 1.6;
 
-    max-width: 490px;
-
-    padding-bottom: 60px;
-
-    color: var(--nav-and-text-color);
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
 }
 
-.home-page-list-button{
-    display: flex;
+.home-list-button{
+    border-radius: 8px;
 
-    padding: 20px 0px 20px 18px;
-
-    border-radius: 15px;
-
-    background-color: var(--bg-for-serch);
-    border: solid 1.5px;
-    border-color: var(--button-color);
+    background-color: var(--page-color);
 }
 
-.home-page-list-button-img{
-    padding-right: 13px;
+.home-list-button-img-other{
+    padding: 11px;
 }
 
-.home-page-list-button-desc{
+.home-list-button-img-facebook{
+    padding: 12px
+}
+
+    /* in button */
+.home-list-button-desc,.home-list-button-in-button{
+    line-height: 1.5;
+}
+
+.home-list-button-desc{
+    font-size: 14px;
+    font-weight: 400;
+
+    color: var(--buttons-text-color);
+}
+
+.home-list-button-in-button{
+    font-size: 16px;
+    font-weight: 600;
+
+    padding: 12px 36px;
+    border-radius: 8px;
+
+    color: var(--buttons-text-color);
+    background-color: var(--buttonsbg-dot-loadbutton-color);
+}
+
+    /* tools */
+
+.tools-list-title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+
+    color: var(--logo-home-title-main-title-selection-apps-title-title-in-footer-color);
+}
+
+.tools-list-desc{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
+}
+    /* apps-list */
+
+
+.apps-list-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    color: var(--nav-registr-appsname-selection-apps-info-color);
+}
+
+.apps-list-desc{
+    font-weight: 400;
+}
+
+.apps-list-desc-value{
+    font-size: 18px;
+    line-height: 1.5;
+
+    color: var(--apps-value-color);
+}
+
+.apps-list-desc-info{
+    font-size: 16px;
+    line-height: 1.8;
+
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
+}
+
+.apps-list-button, .new-tools-list-button-in-button{
+    font-weight: 600;
+    line-height: 1.5;
+
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
+    background-color: var(--page-color);
+}
+
+    /* button load more */
+
+.apps-load-button{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    border: 1px;
+    padding: 17px 38px;
+    border-radius: 8px;
+
+    color: var(--buttonsbg-dot-loadbutton-color);
+    background-color: var(--page-color);
+}
+
+    /* brands  specufic button*/
+
+ .brands-button{
+    background-color: var(--page-color);
+
+     /* background-image: url("");  */
+} 
+
+.brands-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    color: var(--trustedbrands-color);
+}
+
+/* .brands-list{
+
+}
+
+.brands-list-item{
+
+} */
+
+    /* newcomer tools */
+
+.new-tools-list-button{
+    background-color: var(--page-color);
+}
+
+.new-tools-title-list-title{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    color: var(--logo-home-title-main-title-selection-apps-title-title-in-footer-color);
+}
+
+.new-tools-title-list-desc,.new-tools-title-list-button{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.new-tools-title-list-desc{
+    line-height: 1.6;
+
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
+}
+
+.new-tools-title-list-button{
+    line-height: 1.5;
+
+    padding: 16px 40px;
+    border-radius: 8px;
+
+    color: var(--buttons-text-color);
+    background-color: var(--buttonsbg-dot-loadbutton-color);
+}
+
+/*  */
+
+.new-tools-list-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    color: var(--nav-registr-appsname-selection-apps-info-color);
+}
+
+.new-tools-list-desc{
+    font-weight: 400;
+}
+
+.new-tools-list-desc-value{
+    font-size: 18px;
+    line-height: 1.5;
+
+    color: var(--apps-value-color);
+}
+
+.new-tools-list-desc-info{
+    font-size: 14px;
+    line-height: 2.1;
+
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
+}
+
+    /* team */
+
+.team-list-desc{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.1;
+
+    color: var(--nav-registr-appsname-selection-apps-info-color);
+ }
+
+    /* contributor */
+
+
+.contributor-list-title, .contributor-list-desc{
+    font-weight: 500;
+    text-align: center;
+}
+
+.contributor-list-title{
+    font-size: 48px;
+    line-height: 1.2;
+
+    color: var(--logo-home-title-main-title-selection-apps-title-title-in-footer-color);
+}
+
+.contributor-list-desc{
+    font-size: 18px;
+    line-height: 1.6;
+
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
+}
+
+.contributor-list-button{
+    background-color: var(--page-color);
+}
+
+.contributor-list-button-desc{
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
 
-    color: var(--text-in-serch-zone-color);
+    color: var(--buttontext-no-orange-color);
 }
 
-.home-page-list-button-in-button{
+.contributor-list-button-in-button{
     font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
 
-    width: 130px;
-    height: 48px;
-
+    padding: 12px 35px;
     border-radius: 8px;
 
-    color: var(--text-in-button-color); 
-
-    background: var(--button-dot-color);
-
-} 
-
-.social-networks-list{
-    display: flex;
-
-    padding-top: 110px;
-    padding-left: 111px;
-
-    gap: 8px;
+    color: var(--buttons-text-color);
+    background-color: var(--buttonsbg-dot-loadbutton-color);
 }
 
-.social-networks-list-button{
-    width: 58px;
-    height: 58px;
+    /* footer info 1 */
 
-    border-radius: 8px;
-
-    background: var(--bg);
-}
-
-.social-networks-list-img{
-     background-color: var(--bg); 
-}
-
-.popular-tools-list-title{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.popular-tools-list-title-item-title{
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.2;
-
-    /* align-items: center;
-    justify-content: center; */
-}
-
-.popular-tools-list-item-title-desc{
-
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.6;
-
-    max-width: 450px;
-
-    color: var(--nav-and-text-color);
-}
-
-.popular-tools-list{
-    display: flex;
-    flex-wrap: wrap;
-
-    padding: 0px 108px 0px 108px;
-
-    gap: 25px;
-}
-
-.popular-tools-list-title{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.5;
-
-    color: var(--logo-color);
-}
-
-    /* popular topols list */
-
-.popular-tools-list-desc-top{
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
-
-
-    color: var(--popular-tools-info-color);
-}
-
-.popular-tools-list-desc{
+.logo-footer-list-title{
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    color: var(--logo-home-title-main-title-selection-apps-title-title-in-footer-color);
+}
+
+.logo-footer-list-desc{
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.8;
+    line-height: 1.7;
 
-    /* min-width: 10px; */
-
-    color: var(--nav-and-text-color);
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
 }
 
-.popular-tools-list-button{
-    width: 392px;
-    height: 294px;
+     /* footer info 2 */
 
-    border-radius: 15px;
-
-    padding-top: 90px;
-
-    background-color: var(--bg);
+.contact-list-title, .contact-list-link{
+    font-weight: 500;
+    line-height: 1.5;
 }
 
-.popular-tools-list-link{
-    width: 106px;
-    height: 42px;
+.contact-list-title{
+    font-size: 20px;
 
-    border-radius: 8px;
-
-    background-color: var(--bg);
+    color: var(--logo-home-title-main-title-selection-apps-title-title-in-footer-color);
 }
 
-.popular-tools-list-link{
+.contact-list-link{
     font-size: 16px;
-    font-weight: 600;
-    line-height: 1.5;
 
-    color: var(--nav-and-text-color);
-}
-
-.popular-tools-load-more{
-    width: 184px;
-    height: 64px;
-
-    border-radius: 8px;
-    border: solid 1px;
-
-    border-color: var(--button-color);
-
-    background-color: var(--bg);
-
-    color: var(--button-dot-color);
-}
-
-.section-brands-desc{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 1.5;
-
-    color: var(--section-brands);
-}
-
-.section-brands-button{
-    border:solid 2px;
-    border-radius: 25px;
-
-    border-color: var(--brands-button-radius-color);
-
-    background-color: var(--bg);
-}
-
-.newcomer-tools-title{
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.2;
-
-    color: var(--logo-color);
-}
-
-.newcomer-tools-desc{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 1.6;
-
-    color: var(--nav-and-text-color);
-}
-
-.newcomer-tools-button{
-    width: 198px;
-    height: 58px;
-
-
-    border-radius: 8px;
-
-    background-color: var(--button-dot-color);
-
-    color: var(--text-in-button-color);
-}
-
-.newcomer-tools-list-title{
-    color: var(--team-info-color);
+    color: var(--home-p-main-p-apps-info-apps-visit-info-in-footer-color);
 }
