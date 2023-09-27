@@ -25,9 +25,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <head class="header">
-        <div class="header-wrap">
-            <div class="container">
+    <header class="header">
+        <div class="container">
+            <div class="header-wrap">
 
                 <ul class="logo-list">
                     <li class="logo-list-item">
@@ -66,29 +66,28 @@
                 </ul>
             </div>
         </div>
-    </head>
+    </header>
     <main>
         <section class="section-home">
-            <div class="container">
                 <ul class="home-list">
-                    <li class="home-list-item">
-                        <h1 class="home-list-title">Awesome tools forDesigner & Developer<span class="title-dot">.</span></h1>
+                    <li class="home-list-item home-list-item-info">
+                        <h1 class="home-list-title">Awesome tools for Designer & Developer<span class="title-dot">.</span></h1>
 
                         <p class="home-list-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
                         
-                        <button class="home-list-button">
+                        <a class="home-list-link-button home-list-link-button-serch">
                             <img class="home-list-button-img" src="./img/button img/search img for button.png" alt="">
                             <p class="home-list-button-desc">find more than 430+ tools...</p>
                             <button class="home-list-button-in-button">Search</button>
-                        </button>
+                        </a>
 
-                        <button class="home-list-button">
+                        <button class="home-list-button home-list-button-imgs">
                             <img class="home-list-button-img home-list-button-img-facebook" src="./img/home page/mini imgs/facebook mini img.png" alt="">
                         </button>
-                        <button class="home-list-button">
+                        <button class="home-list-button home-list-button-imgs">
                             <img class="home-list-button-img home-list-button-img-other" src="./img/home page/mini imgs/instagram mini img.png" alt="">
                         </button>
-                        <button class="home-list-button">
+                        <button class="home-list-button home-list-button-imgs">
                             <img class="home-list-button-img home-list-button-img-other" src="./img/home page/mini imgs/twiter mini img.png" alt="">
                         </button>
                     </li>
@@ -96,7 +95,6 @@
                         <img class="home-list-img" src="./img/home page/illustration home page big.png" alt="">
                     </li>
                 </ul>
-            </div>
         </section>
 
         <section class="tools">
@@ -110,56 +108,86 @@
 
                 <ul class="apps-list">
                     <li class="apps-list-item">
-                        <img class="apps-list-img" src="./img/apps img/figma img.png" alt="">
-                        <h2 class="apps-list-title">FIGMA</h2>
-                        <p class="apps-list-desc apps-list-desc-value">Free</p>
-                        <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <!-- кнопочки х2 -->
-                        <button class="apps-list-button">Visit</button>
+                        <div class="apps-list-item-wrap">
+                            <div class="apps-head-wrap">
+                                    <img class="apps-list-img" src="./img/apps img/figma img.png" alt="">
+                                <div class="apps-list-title-wrap">        
+                                    <h2 class="apps-list-title">FIGMA</h2>
+                                    <p class="apps-list-desc apps-list-desc-value">Free</p>
+                                </div>
+                            </div>    
+                                <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="apps-list-button apps-list-button-wrap">Visit</button>
+                        </div>
                     </li>
                     <li class="apps-list-item">
-                        <img class="apps-list-img" src="./img/apps img/sketch pmg.png" alt="">
-                        <h2 class="apps-list-title">Sketch</h2>
-                        <p class="apps-list-desc apps-list-desc-value">Trial & Paid</p>
-                        <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <!-- кнопочки х2 -->
-                        <button class="apps-list-button">Visit</button>
+                        <div class="apps-list-item-wrap">
+                            <div class="apps-head-wrap">
+                                    <img class="apps-list-img" src="./img/apps img/sketch pmg.png" alt="">
+                                <div class="apps-list-title-wrap">
+                                    <h2 class="apps-list-title">Sketch</h2>
+                                    <p class="apps-list-desc apps-list-desc-value">Trial & Paid</p>
+                                </div>
+                            </div>
+                                <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="apps-list-button">Visit</button>
+                        </div>
                     </li>
                     <li class="apps-list-item">
-                        <img class="apps-list-img" src="./img/apps img/visual st img.png" alt="">
-                        <h2 class="apps-list-title">Visual Studio Code</h2>
-                        <p class="apps-list-desc apps-list-desc-value">Free</p>
-                        <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <!-- кнопочки х2 -->
-                        <button class="apps-list-button">Visit</button>
+                        <div class="apps-list-item-wrap">
+                            <div class="apps-head-wrap">
+                                    <img class="apps-list-img" src="./img/apps img/visual st img.png" alt="">
+                                <div class="apps-list-title-wrap">    
+                                    <h2 class="apps-list-title">Visual Studio Code</h2>
+                                    <p class="apps-list-desc apps-list-desc-value">Free</p>
+                                </div>
+                            </div>
+                                <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="apps-list-button">Visit</button>
+                        </div>
                     </li>
                     <li class="apps-list-item">
-                        <img class="apps-list-img" src="./img/apps img/notion img.png" alt="">
-                        <h2 class="apps-list-title">Notion</h2>
-                        <p class="apps-list-desc apps-list-desc-value">Free & Paid</p>
-                        <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <!-- кнопочки х2 -->
-                        <button class="apps-list-button">Visit</button>
+                        <div class="apps-list-item-wrap">
+                            <div class="apps-head-wrap">
+                                    <img class="apps-list-img" src="./img/apps img/notion img.png" alt="">
+                                <div class="apps-list-title-wrap">      
+                                    <h2 class="apps-list-title">Notion</h2>
+                                    <p class="apps-list-desc apps-list-desc-value">Free & Paid</p>
+                                </div>
+                            </div>
+                                <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="apps-list-button">Visit</button>
+                        </div>
                     </li>
                     <li class="apps-list-item">
-                        <img class="apps-list-img" src="./img/apps img/slack img.png" alt="">
-                        <h2 class="apps-list-title"></h2>
-                        <p class="apps-list-desc apps-list-desc-value">Free & Paid</p>
-                        <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <!-- кнопочки х2 -->
-                        <button class="apps-list-button">Visit</button>
+                        <div class="apps-list-item-wrap">
+                            <div class="apps-head-wrap">
+                                    <img class="apps-list-img" src="./img/apps img/slack img.png" alt="">
+                                <div class="apps-list-title-wrap">     
+                                    <h2 class="apps-list-title">Slack</h2>
+                                    <p class="apps-list-desc apps-list-desc-value">Free & Paid</p>
+                                </div>
+                            </div>
+                                <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="apps-list-button">Visit</button>
                     </li>
                     <li class="apps-list-item">
-                        <img class="apps-list-img" src="./img/apps img/invision img.png" alt="">
-                        <h2 class="apps-list-title"></h2>
-                        <p class="apps-list-desc apps-list-desc-value">Free & Paid</p>
-                        <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <!-- кнопочки х2 -->
-                        <button class="apps-list-button">Visit</button>
+                        <div class="apps-list-item-wrap">
+                            <div class="apps-head-wrap">
+                                    <img class="apps-list-img" src="./img/apps img/invision img.png" alt="">
+                                <div class="apps-list-title-wrap">      
+                                    <h2 class="apps-list-title">Invision</h2>
+                                    <p class="apps-list-desc apps-list-desc-value">Free & Paid</p>
+                                </div>
+                            </div>
+                                <p class="apps-list-desc apps-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <button class="apps-list-button">Visit</button>
                     </li>
                 </ul>
 
-                <button class="apps-load-button">Load more</button>
+                    <div class="load-button-wrap">
+                        <button class="apps-load-button">Load more</button>
+                    </div>
             </div>
         </section>
 
@@ -187,56 +215,74 @@
 
         <section class="section-new-tools">
             <div class="container">
-                <ul class="new-tools-title-list">
-                    <li class="new-tools-title-list-item">
-                        <h2 class="new-tools-title-list-title">Newcomer Tools</h2>
-                        <p class="new-tools-title-list-desc">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
-                        <button class="new-tools-title-list-button">Explore more</button>
-                    </li>
-                </ul>
+                <div class="new-tools-wrap">
+                    <ul class="new-tools-title-list">
+                        <li class="new-tools-title-list-item">
+                            <h2 class="new-tools-title-list-title">Newcomer Tools</h2>
+                            <p class="new-tools-title-list-desc">Wow! see the latest update of the most recommended tools from reliable designers and developers</p>
+                            <button class="new-tools-title-list-button">Explore more</button>
+                        </li>
+                    </ul>
 
-                <ul class="new-tools-list">
-                    <li class="new-tools-list-item">
-                        <button class="new-tools-list-button">
-                            <img class="new-tools-list-img" src="./img/apps img/zeplin img.png" alt="">
-                            <h2 class="new-tools-list-title">Zeplin</h2>
-                            <p class="new-tools-list-desc new-tools-list-desc-value">Free & Paid</p>
-                            <p class="new-tools-list-desc new-tools-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <!-- кнопочки х2 -->
-                            <button class="new-tools-list-button-in-button">Visit</button>
-                        </button>
-                    </li>
-                    <li class="new-tools-list-item">
-                        <button class="new-tools-list-button">
-                            <img class="new-tools-list-img" src="./img/apps img/PHPStorm img.png" alt="">
-                            <h2 class="new-tools-list-title">PHPStorm</h2>
-                            <p class="new-tools-list-desc new-tools-list-desc-value">Free</p>
-                            <p class="new-tools-list-desc new-tools-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <!-- кнопочки х2 -->
-                            <button class="new-tools-list-button-in-button">Visit</button>
-                        </button>
-                    </li>
-                    <li class="new-tools-list-item">
-                        <button class="new-tools-list-button">
-                            <img class="new-tools-list-img" src="./img/apps img/toolbox img.png" alt="">
-                            <h2 class="new-tools-list-title">Toolbox</h2>
-                            <p class="new-tools-list-desc new-tools-list-desc-value">Free</p>
-                            <p class="new-tools-list-desc new-tools-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <!-- кнопочки х2 -->
-                            <button class="new-tools-list-button-in-button">Visit</button>
-                        </button>
-                    </li>
-                    <li class="new-tools-list-item">
-                        <button class="new-tools-list-button">
-                            <img class="new-tools-list-img" src="./img/apps img/procreate img.png" alt="">
-                            <h2 class="new-tools-list-title">Procreate</h2>
-                            <p class="new-tools-list-desc new-tools-list-desc-value">Paid</p>
-                            <p class="new-tools-list-desc new-tools-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                <!-- кнопочки х2 -->
-                            <button class="new-tools-list-button-in-button">Visit</button>
-                        </button>
-                    </li>
-                </ul>
+                    <ul class="new-tools-list">
+                        <li class="new-tools-list-item">
+                            <div class="new-tools-list-button">
+                                <div class="new-tools-list-wrap">
+                                        <img class="new-tools-list-img" src="./img/apps img/zeplin img.png" alt="">
+                                    <div class="new-tools-list-title-wrap">
+                                        <h2 class="new-tools-list-title">Zeplin</h2>
+                                        <p class="new-tools-list-desc new-tools-list-desc-value">Free & Paid</p>
+                                    </div>
+                                </div>
+                                <p class="new-tools-list-desc new-tools-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <!-- кнопочки х2 -->
+                                <button class="new-tools-list-button-in-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="new-tools-list-item">
+                            <div class="new-tools-list-button">
+                                <div class="new-tools-list-wrap">
+                                        <img class="new-tools-list-img" src="./img/apps img/PHPStorm img.png" alt="">
+                                    <div class="new-tools-list-title-wrap">
+                                        <h2 class="new-tools-list-title">PHPStorm</h2>
+                                        <p class="new-tools-list-desc new-tools-list-desc-value">Free</p>
+                                    </div>
+                                </div>
+                                <p class="new-tools-list-desc new-tools-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <!-- кнопочки х2 -->
+                                <button class="new-tools-list-button-in-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="new-tools-list-item">
+                            <div class="new-tools-list-button">
+                                <div class="new-tools-list-wrap">
+                                     <img class="new-tools-list-img" src="./img/apps img/toolbox img.png" alt="">
+                                    <div class="new-tools-list-title-wrap">
+                                        <h2 class="new-tools-list-title">Toolbox</h2>
+                                        <p class="new-tools-list-desc new-tools-list-desc-value">Free</p>
+                                    </div>
+                                </div>
+                                <p class="new-tools-list-desc new-tools-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <!-- кнопочки х2 -->
+                                <button class="new-tools-list-button-in-button">Visit</button>
+                            </div>
+                        </li>
+                        <li class="new-tools-list-item">
+                            <div class="new-tools-list-button">
+                                <div class="new-tools-list-wrap">
+                                        <img class="new-tools-list-img" src="./img/apps img/procreate img.png" alt="">
+                                    <div class="new-tools-list-title-wrap">
+                                        <h2 class="new-tools-list-title">Procreate</h2>
+                                        <p class="new-tools-list-desc new-tools-list-desc-value">Paid</p>
+                                    </div>
+                                </div>
+                                <p class="new-tools-list-desc new-tools-list-desc-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <!-- кнопочки х2 -->
+                                <button class="new-tools-list-button-in-button">Visit</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
@@ -245,64 +291,77 @@
 
                 <ul class="team-list">
                     <li class="team-list-item">
-                        <button class="team-list-button"></button>
+                        <!-- <div class="team-list-button">svg</div> -->
                         <img class="team-list-img" src="./img/team/chel team img.png" alt="">
                         <p class="team-list-desc">Incididunt cillum do sint sint enim ullamco id deserunt mollit qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. Do nulla velit labore occaecat do deserunt Lorem magna officia incididunt consectetur amet. Sunt consectetur veniam minim ex commodo sint non. Occaecat aute officia excepteur non laboris id qui ad.</p>
-                        <button class="team-list-desc"></button>
+                        <!-- <div class="team-list-desc">svg</div> -->
                     </li>
-                    <!-- <li></li> -->
                 </ul>
+                    <!-- <div>svg</div> -->
             </div>
         </section>
 
         <section class="section-contributor">
             <div class="container">
-                <ul class="contributor-list">
-                    <li class="contributor-list-item">
-                        <h2 class="contributor-list-title">Become a contributor?</h2>
-                        <p class="contributor-list-desc">Join us and get tips & tricks to become a great Designer and Developer</p>
-                    </li>
-                    <li class="contributor-list-item">
-                        <button class="contributor-list-button">
-                            <p class="contributor-list-button-desc">Enter your email...</p>
-                            <button class="contributor-list-button-in-button">Join Us</button>
-                        </button>
-                    </li>
-                </ul>
+                <div class="contributor-wrap">
+                    <ul class="contributor-list">
+                        <li class="contributor-list-item">
+                            <div class="contributor-list-title-wrap">
+                                <h2 class="contributor-list-title">Become a contributor?</h2>
+                                <p class="contributor-list-desc">Join us and get tips & tricks to become a great Designer and Developer</p>
+                            </div>
+                        </li>
+                        <li class="contributor-list-item">
+                            <div class="contributor-list-button">
+                                <p class="contributor-list-button-desc">Enter your email...</p>
+                                <button class="contributor-list-button-in-button">Join Us</button>
+                            </div>  
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        <ul class="logo-footer-list">
-            <li class="logo-footer-list-item">
-                <img class="logo-footer-list-img" src="./img/logo/logo antools footer img.png" alt="">
-                <a class="logo-footer-list-link" href="">antools.</a>
-            </li>
-            <li class="logo-footer-list-item">
-                <h4 class="logo-footer-list-title">Copyright 2021. Antools</h4>
-                <p class="logo-footer-list-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
-            </li>
-        </ul>
-
-        <ul class="contact-list">
-            <li class="contact-list-item">
-                <h4 class="contact-list-title">Contact Us</h4>
-                <a class="contact-list-link" href="">+621987463</a>
-                <a class="contact-list-link" href="">M Building, No.10 A</a>
-                <a class="contact-list-link" href="">antools@awesome.com</a>
-            </li>
-            <li class="contact-list-item">
-                <h4 class="contact-list-title">Categories</h4>
-                <a class="contact-list-link" class="contact-list-link" href="">Design</a>
-                <a class="contact-list-link" href="">Development</a>
-            </li>
-            <li class="contact-list-item">
-                <h4 class="contact-list-title">Company Info</h4>
-                <a class="contact-list-link" href="">About Us</a>
-                <a class="contact-list-link" href="">Our Partners</a>
-                <a class="contact-list-link" href="">Blog</a>
-            </li>
-        </ul>
+        <div class="footer-wrap">
+            <div class="footer-title-wrap">
+            <ul class="logo-footer-list">
+                <li class="logo-footer-list-item">
+                    <div class="logo-footer-wrap">
+                        <img class="logo-footer-list-img" src="./img/logo/logo antools footer img.png" alt="">
+                        <a class="logo-footer-list-link" href="">antools.</a>
+                    </div>
+                </li>
+                <li class="logo-footer-list-item">
+                    <h4 class="logo-footer-list-title">Copyright 2021. Antools</h4>
+                    <p class="logo-footer-list-desc">Antool is a web collection of information on paid or free Design and Development tools</p>
+                </li>
+            </ul>
+          </div>
+            <ul class="contact-list">
+                <li class="contact-list-item">
+                    <h4 class="contact-list-title">Contact Us</h4>
+                    <a class="contact-list-link" href="">+621987463</a>
+                    <a class="contact-list-link" href="">M Building, No.10 A</a>
+                    <a class="contact-list-link" href="">antools@awesome.com</a>
+                </li>
+            </ul>
+            <ul class="categories-list">
+                <li class="categories-list-item">
+                    <h4 class="categories-list-title">Categories</h4>
+                    <a class="categories-list-link" class="contact-list-link" href="">Design</a>
+                    <a class="categories-list-link" href="">Development</a>
+                </li>
+            </ul>
+            <ul class="conpany-list">
+                <li class="conpany-list-item">
+                    <h4 class="conpany-list-title">Company Info</h4>
+                    <a class="conpany-list-link" href="">About Us</a>
+                    <a class="conpany-list-link" href="">Our Partners</a>
+                    <a class="conpany-list-link" href="">Blog</a>
+                </li>
+            </ul>
+    </div>
     </footer>
 </body>
 </html>
