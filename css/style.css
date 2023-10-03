@@ -242,19 +242,30 @@ color: var(--logo-home-title-main-title-selection-apps-title-title-in-footer-col
     /* apps-list */
 
 .apps-list{
+    row-gap: 100px;
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 23px;
+    justify-content: center;
+    margin-top: 110px;
+
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px 24px;
+    gap: 100px 24px; */
 }
 
 
 .apps-list-item{
-    border: solid 2px;
+    /* border: solid 2px;
     border-radius: 15px;
 
-    padding: 23px;
+    /* width: 392px; */
+
+    width: 392px;
+    height: 294px;
+    padding: 33px;
 
     border-color: var(--page-color);
 }
